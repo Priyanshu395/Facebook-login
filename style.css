@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(216, 223, 230);
+}
+
+#heading{
+    position: absolute;
+    font-size: 30px;
+    top: 30%;
+    left: 10%;
+    
+}
+#heading h1{
+    color: rgba(0, 0, 255, 0.69);
+}
+#heading p{
+    padding-top: 15px;
+}
+
+#inputtake{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    height: 500px;
+    width: 500px;
+    background-color:white;
+    border-radius: 5%;
+    
+}
+
+#inputtake input {
+   
+    display: flex;
+    
+}
+
+#name input{
+   position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 60px;
+    width: 400px;
+    border-radius:15px; ;
+   
+   
+    
+}
+#pass input{
+    position: absolute;
+     top: 30%;
+     left: 10%;
+     height: 60px;
+     width: 400px;
+     border-radius:15px; ;
+    
+    
+     
+ }
+
+
+#inputtake button.register{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    height: 60px;
+    border-radius: 15px;
+    width: 400px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 255, 0.689);
+}
+#inputtake a{
+    position: absolute;
+    top:70%;
+    left: 40%;
+    text-decoration: none;
+    font-size: 20px;
+}
+#inputtake button.new{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    height: 30px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 15px;
+    background-color: rgba(0, 128, 0, 0.921);
+}
+
